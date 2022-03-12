@@ -5,6 +5,10 @@
 
 }
 
+main{
+    display: block;
+}
+
 .one{
     display: flex;
     background-color:#181818;
@@ -18,6 +22,8 @@
 
 .banner{
     background-color: transparent !important;
+    height: 100% !important;
+
 }
 
 .two{
@@ -66,14 +72,17 @@ h2{
 }
 
 .shelf{
-    padding-right: 150px;
+    
+    padding: 50px;
     align-items: center;
     text-align: center;
-    height: 200px;
+    height: 100%;
 }
 
 .col{
     background-color: #EBE9EA;
-    margin: 13px;
+    height: 302px;
+    margin: 0px 20px 50px 0px ;
 }
+
 
